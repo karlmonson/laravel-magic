@@ -26,6 +26,13 @@ Next, replace the default ```AuthenticatesUsers``` trait on your ```LoginControl
 
 ```php
 use KarlMonson\Magic\Traits\AuthenticatesUsers;
+
+class LoginController extends Controller
+{
+    use AuthenticatesUsers;
+
+    ...
+}
 ```
 
 You'll also need to add the ```Magical``` trait to your user model:
