@@ -68,6 +68,7 @@ You may also specify an 'expire' option for Magic to use, this is how long login
 
 - [Karl Monson](https://github.com/karlmonson) - Author
 - [Fast](https://fast.co) - Inspiration
+- [Slack](https://slack.com) - Inspiration
 
 ## License
 
