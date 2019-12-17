@@ -1,0 +1,34 @@
+{
+  "name": "karlmonson/laravel-magic",
+  "description": "Laravel Magic is a passwordless authentication driver",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Karl Monson",
+      "email": "karl@karlmonson.com",
+      "homepage": "https://github.com/karlmonson",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KarlMonson\\Magic\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/auth": "^6.0",
+    "illuminate/database": "^6.0",
+    "illuminate/notifications": "^6.0",
+    "illuminate/support": "^6.0"
+  },
+   "extra": {
+    "laravel": {
+      "providers": [
+        "KarlMonson\\Magic\\MagicServiceProvider"
+      ],
+      "aliases": {
+        "Magic": "KarlMonson\\Magic\\Facades\\Magic"
+      }
+    }
+  }
+}
