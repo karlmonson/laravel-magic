@@ -27,6 +27,6 @@ class CreateAuthRequestsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('auth_requests');
+        Schema::dropIfExists('magic_auth_requests');
     }
 }
